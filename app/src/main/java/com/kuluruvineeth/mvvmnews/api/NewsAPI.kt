@@ -1,6 +1,6 @@
 package com.kuluruvineeth.mvvmnews.api
 
-import com.kuluruvineeth.mvvmnews.NewsResponse
+import com.kuluruvineeth.mvvmnews.models.NewsResponse
 import com.kuluruvineeth.mvvmnews.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

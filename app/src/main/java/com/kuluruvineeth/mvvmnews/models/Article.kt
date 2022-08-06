@@ -1,4 +1,4 @@
-package com.kuluruvineeth.mvvmnews
+package com.kuluruvineeth.mvvmnews.models
 
 
 import androidx.room.Entity
