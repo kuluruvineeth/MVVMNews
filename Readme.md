@@ -24,32 +24,58 @@ Search News | Searched News | Internet Check |
 
 ## Package Structure 📦
 
-    com.kuluruvineeth.mvvmnews # Root Package
-    ├── adapters               # Adapter for RecyclerView 
-    ├── api                    # For api handling.
-    │   ├── NewsAPI            # News Api endpoints
-    |   ├── RetrofitInstance   # Created Retrofit Instance   
+    com.kuluruvineeth.mvvmnews    # Root Package
+    ├── adapters                  # Adapter for RecyclerView 
+    ├── api                       # For api handling.
+    │   ├── NewsAPI               # News Api endpoints
+    |   ├── RetrofitInstance      # Created Retrofit Instance   
     |
-    ├── db                     # For db handling
-    |   ├── ArticleDao         # Data Access Object for Article
-    |   ├── ArticleDatabase    # Article Database Instance
-    |   ├── Converters         # Type Converters
+    ├── db                        # For db handling
+    |   ├── ArticleDao            # Data Access Object for Article
+    |   ├── ArticleDatabase       # Article Database Instance
+    |   ├── Converters            # Type Converters
     |
-    ├── view                # Activity/Fragment View layer
-    │   ├── main            # Main root folder
-    |   │   ├── main        # Main Activity for RecyclerView
-    |   │   └── viewmodel   # Transaction ViewModel
-    |   │   ├── adapter     # Adapter for RecyclerView
-    │   ├── Dashboard       # Dashboard root folder
-    |   |   |__ dashboard   # Dashboard 
-    │   ├── Add             # Add Transaction root folder
-    |   |   |__ add         # Add Transaction 
-    │   ├── Edit            # Edit Transaction root folder
-    |   |   |__ edit        # Edit Transaction
-    │   ├── Details         # Add Transaction root folder
-    |   |   |__ details     # Transaction Details
-    │   ├── About           # About root folder
-    |   |   |__ about       # About 
-    │   ├── Dialog          # All Dialogs root folder
-    |   |   |__ dialog      # Error Dialog 
-    ├── utils               # All extension functions
+    ├── models                    # Model classes
+    │   ├── Article               # Article data class
+    │   ├── NewsResponse          # NewsResponse data class
+    │   ├── Source                # Source data class
+    ├── repository                # Used to handle all data operations
+    │   ├── NewsRepository        # NewsRepository class
+    ├── ui                        # Used to handle all view layer
+    │   ├── fragments             # All fragments
+    │       ├── ArticleFragment            
+    │       ├── BreakingNewsFragment      
+    │       ├── SavedNewsFragment
+    |       ├── SearchNewsFragment
+    │   ├── NewsActivity            # main news activity
+    │   ├── NewsViewModel           # NewsViewModel interacting with repository and fragments
+    │   ├── NewsViewModelFactory
+    |── util                        # Used to handle all data operations
+    │   ├── Constants
+    |   ├── Resource
+    |── BaseApplication             
+    
+## Architecture 🗼
+This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
+
+![](https://github.com/kuluruvineeth/MVVMNews/blob/master/screenshots/architecture.png)
+
+## Build-tool 🧰
+You need to have [Android Studio](https://developer.android.com/studio/preview) to build this project.
+<br>
+<img src="./screenshots/android.png" height="200" alt="android-studio"/>
+
+<br>
+
+## Contribute 🤝
+If you want to contribute to this app, you're always welcome!
+
+## Contact 📩
+Have an project? DM me at 👇
+
+Drop a mail to:- kuluruvineeth8623@gmail.com
+
+<br>
+
+
+    
