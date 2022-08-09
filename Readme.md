@@ -1,4 +1,6 @@
 # News 🧿
+![](https://img.shields.io/badge/MVVMNews-android-green)
+
 Modern News App is a simple news app 🗞️  built to demonstrate the use of modern android architecture component with MVVM Architecture 🏗 which uses NewsAPI to fetch breaking news, search any news from various countries and save to local database for further reading. *Made with love ❤️ by [Kuluruvineeth](https://github.com/kuluruvineeth)*
 
 <br />
